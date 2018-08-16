@@ -1,0 +1,36 @@
+@import "utils";
+
+.container {
+    width: 232px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 180px;
+    background-color: $strong_gray;
+    color: white;
+    border-radius: 10px;
+    box-shadow:  3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+    margin-right: 22px;
+
+    .image{
+        img{
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        }
+        
+    }
+    .title {
+        padding-left: 10px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+    .genres{
+        padding-left: 10px;
+        margin-bottom: 4px;
+    }
+    .rating {
+        padding-left: 10px;
+        margin-bottom: 4px;
+    }
+}

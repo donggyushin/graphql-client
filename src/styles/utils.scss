@@ -1,2 +1,8 @@
 @import '~open-color/open-color';
 @import '~include-media/dist/include-media';
+
+@mixin border {
+    border: 1px solid black;
+}
+
+$strong_gray: #2B2B2B;

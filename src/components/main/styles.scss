@@ -1,1 +1,15 @@
 @import "utils";
+
+html { 
+  background-color: #424242;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+

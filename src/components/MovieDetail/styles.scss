@@ -1,0 +1,42 @@
+@import "utils";
+.container {
+    padding: 35px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    .poster{
+        img {
+            border-radius: 10px;
+            box-shadow:  3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+        }
+        margin-right: 20px;
+    }
+    .right {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: white;
+        
+        .text{
+            margin-bottom: 8px;
+        }
+        .button {
+            margin-top: 60px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border-radius: 10px;
+            box-shadow:  3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+            background-color: #97FF54;
+            text-align: center;
+            color: white;
+            a {
+                color: white;
+                text-decoration: none;
+            }
+           
+        }
+    }
+}

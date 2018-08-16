@@ -1,0 +1,13 @@
+@import "utils";
+
+.detail_container {
+    h2 {
+        color: white;
+    }
+    .suggestions{
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+

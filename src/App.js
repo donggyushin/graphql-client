@@ -1,15 +1,14 @@
 import React, { Component } from "react";
-
-import { Provider } from "react-redux";
-import store from "./store";
-import MainContainer from "containers/main/MainContainer";
+import { ApolloProvider } from "react-apollo";
+import client from "apollo/apollo";
+import Main from "components/main/Main";
 
 class App extends Component {
   render() {
     return (
-      <Provider store={store}>
-        <MainContainer />
-      </Provider>
+      <ApolloProvider client={client}>
+        <Main />
+      </ApolloProvider>
     );
   }
 }
