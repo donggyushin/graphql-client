@@ -1,8 +1,16 @@
 import React, { Component } from "react";
 
+import { Provider } from "react-redux";
+import store from "./store";
+import MainContainer from "containers/main/MainContainer";
+
 class App extends Component {
   render() {
-    return <div className="App">hello world</div>;
+    return (
+      <Provider store={store}>
+        <MainContainer />
+      </Provider>
+    );
   }
 }
 
