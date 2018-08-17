@@ -27,7 +27,9 @@ const MovieDetail = ({
         <span className={cx("text")}>{title}</span>
         <span className={cx("text")}>{year}</span>
         <span className={cx("text")}>{rating}✨</span>
-        <span className={cx("text")}>{genres}</span>
+        <span className={cx("text")}>
+          {genres && genres.map(genre => genre + ", ")}
+        </span>
         <span className={cx("text")}>{description_full}</span>
         <span className={cx("text")}>
           runtime:
